@@ -547,7 +547,7 @@ function transliterateWord(
     iW = iW.replace(/ź/g, 'zʲ');
     iW = iW.replace(/zь/g, 'zʲ');
     iW = iW.replace(/ř/g, 'rʲ');
-    iW = iW.replace(/r[ьj]/g, 'rʲ');
+    iW = iW.replace(/r[ь]/g, 'rʲ');
     iW = iW.replace(/ń/g, 'ɲ');
     iW = iW.replace(/n[ьj]/g, 'ɲ');
     iW = iW.replace(/ĺ/g, 'ʎ');
